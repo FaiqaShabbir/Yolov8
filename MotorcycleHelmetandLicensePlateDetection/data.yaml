@@ -1,0 +1,15 @@
+train: C:\Users\faiqa\Desktop\Yolov8\MotorcycleHelmetandLicensePlateDetection\train
+val: C:\Users\faiqa\Desktop\Yolov8\MotorcycleHelmetandLicensePlateDetection\valid
+test: C:\Users\faiqa\Desktop\Yolov8\MotorcycleHelmetandLicensePlateDetection\test
+
+nc: 5
+names: ['helmet', 'plate
+', 'plate', 'rider
+', 'rider']
+
+roboflow:
+  workspace: object-detection-helmetslicense
+  project: motorcycle-helmet-and-license-plate-detection
+  version: 6
+  license: MIT
+  url: https://universe.roboflow.com/object-detection-helmetslicense/motorcycle-helmet-and-license-plate-detection/dataset/6
